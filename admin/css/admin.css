@@ -1,0 +1,91 @@
+/* Dashboard page */
+.wrap .wp-header-end { margin-top: 20px;}
+a.rmem-dashbox {
+	display: block; float: left;
+	width: 150px; height: 100px;
+	margin-right: 20px; padding-top: 50px;
+	
+	text-align: center; font-size: 16px;
+	color: black; text-decoration: none;
+	
+	border: 1px dashed #ccc;
+}
+a.rmem-dashbox:hover { background: #ddd; }
+a.rmem-dashbox .dashicons { display: block; margin: 0 auto; padding-bottom: 10px; }
+
+/* Screens */
+span.dashicons-calendar-alt { cursor: pointer; }
+
+/* Add / Edit screens - reduced height */
+.form-table th { padding: 10px 10px 10px 0; }
+.form-table td { padding: 5px 10px; }
+
+
+/* Plans page */
+#plan-name { padding: 0 8px; }
+.rmem-active 	{ color: #0C0; }
+.rmem-inactive 	{ color: #C00; }
+
+.plan_color_sample {
+	width: 40px; height: 10px;
+	margin-top: 10px;
+
+	border-radius: 5px; 
+}
+
+
+/* User Plans: Listing */
+.plan_color_duration {
+	height: 3px; margin-top: 10px;
+
+	border-radius: 5px; 
+}
+
+/* Timeline */
+#label_focusyear { 
+	display: inline-block; margin-left: 300px;
+	font-size: 14px;
+}
+#focusyear { background: #fffff0; }
+
+#user-plans {
+    margin: 0;
+	clear: both;
+
+	border: 1px solid #ddd; border-spacing: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04); -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+	#user-plans thead tr th,
+	#user-plans tfoot tr th {
+		color: #333; font-size: 14px; line-height: 1.4em;
+	}
+		#user-plans thead th { border-bottom: 1px solid #ddd; }
+		#user-plans thead th.month { min-width: 43px; }
+
+		#user-plans th {
+			color: #555;
+			text-align: left; font-weight: 400; font-size: 14px;
+			
+		}
+		#user-plans th,
+		#user-plans td {
+			padding: 8px;
+			color: #555;
+
+			border-right: 1px solid #ddd; border-bottom: 1px solid #ddd;
+		}
+		
+	#user-plans td.Username {
+		min-width: 120px;
+		white-space: nowrap; cursor: pointer;
+	}
+
+	/*
+	.today {	background: url(vredline.png) no-repeat; }
+
+	.closed { 	background: url(arrow-right.png) 115px 9px no-repeat; }
+	.open { 	background: url(arrow-down.png) 115px 9px no-repeat; }
+	*/
+	
+	
